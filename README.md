@@ -10,17 +10,23 @@ This project investigates the effectiveness of deep learning models—LSTM, Visi
 - [Preprocessing](#preprocessing)
 - [Model Architectures](#model-architectures)
 - [Training & Evaluation](#training--evaluation)
-- [Results](#results)
+- [Results](#results-summary)
 - [Conclusion](#conclusion)
 - [How to Run](#how-to-run)
-- [Author](#author)
-- [License](#license)
 
 ---
 
 ## Abstract
 
 Gesture-based interaction is redefining modern gaming by allowing more immersive and intuitive control mechanisms. This study presents a comparative analysis of four deep learning models—LSTM, Vision Transformer, CNN-LSTM, and CNN-Transformer—using the HaGRID dataset. It evaluates the trade-offs in accuracy, latency, and adaptability, with the hybrid CNN-Transformer achieving the highest performance for real-time gaming.
+
+---
+
+## 🧠 Hand Gesture Recognition System Architecture
+
+This diagram illustrates the overall architecture of the deep learning pipeline, including preprocessing, spatial feature extraction, temporal modeling, and gesture classification.
+
+![Hand Gesture Recognition Architecture](images/architecture.png)
 
 ---
 
@@ -96,8 +102,8 @@ Gesture-based interaction is redefining modern gaming by allowing more immersive
 
 ```bash
 # Clone the repository
-git clone https://github.com/C00LOO5/hand-gesture-recognition-adaptive-ai.git
-cd hand-gesture-recognition-adaptive-ai
+gh repo clone C00LOO5/Study-Hand-Gesture-Recognition-using-AI-models
+cd Study-Hand-Gesture-Recognition-using-AI-models
 
 # (Optional) Create a virtual environment
 python -m venv venv
@@ -107,7 +113,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Run model training (example)
-python train_cnn_transformer.py
+python training_eval.py #project files contain .ipybn file
 
 # For real-time webcam testing
-python detect_realtime.py
+python demo.py  #included in project files
