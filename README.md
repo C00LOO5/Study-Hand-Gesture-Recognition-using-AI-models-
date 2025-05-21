@@ -26,7 +26,7 @@ Gesture-based interaction is redefining modern gaming by allowing more immersive
 
 This diagram illustrates the overall architecture of the deep learning pipeline, including preprocessing, spatial feature extraction, temporal modeling, and gesture classification.
 
-![Hand Gesture Recognition Architecture](images/architecture.png)
+![Hand Gesture Recognition Architecture](images/architecture.jpg)
 
 ---
 
