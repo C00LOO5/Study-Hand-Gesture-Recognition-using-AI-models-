@@ -22,11 +22,11 @@ Gesture-based interaction is redefining modern gaming by allowing more immersive
 
 ---
 
-## 🧠 Hand Gesture Recognition System Architecture
+## System Architecture
 
 This diagram illustrates the overall architecture of the deep learning pipeline, including preprocessing, spatial feature extraction, temporal modeling, and gesture classification.
 
-![Hand Gesture Recognition Architecture](images/architecture.png)
+(images/architecture.png)
 
 ---
 
